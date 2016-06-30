@@ -1,0 +1,16 @@
+/* Write mobile rules first, then this set applies -> */
+/* eg: */
+
+div.buttons {
+  width:90%; //scale to fit iphone/mobile
+}
+@media (min-width: 768px) {
+  div.buttons {
+    width:60%; //tablets/etc
+  }
+}
+@media (min-width: 992px) {
+    div.buttons {
+      width:40%; //full desktop/high rez
+    }
+}
